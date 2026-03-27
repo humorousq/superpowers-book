@@ -7,9 +7,8 @@ export default withMermaid(defineConfig({
   description: "深入学习如何使用 Superpowers 系统提升你的 AI 编码代理效率",
   lang: 'zh-CN',
 
-  // 如果部署到 https://username.github.io/my-book/
-  // 请取消注释以下配置并修改 repo 名称
-  // base: '/my-book/',
+  // GitHub Pages 部署配置
+  base: '/superpowers-book/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
