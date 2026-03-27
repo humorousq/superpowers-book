@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "currentStage": 4,
+  "stages": {
+    "1": {
+      "name": "项目初始化",
+      "status": "completed",
+      "timestamp": "2026-03-27T17:11:01.581Z",
+      "output": {
+        "bookContext": "# Superpowers: AI 编码代理的完整工作流\n\n## 书籍信息\n\n**标题**: Superpowers: AI 编码代理的完整工作流\n\n**描述**: 深入学习如何使用 Superpowers 系统提升你的 AI 编码代理效率。这是一套完整的软件开发工作流，包含可组合的\"技能\"系统，让你的代理更智能、更高效。\n\n**目标读者**:\n- 使用 AI 编码代理（Claude Code、Cursor、Codex、OpenCode）的开发者\n- 希望提升 AI 辅助编程效率的团队\n- 对 AI 代理工作流感兴趣的技术人员\n\n## 章节结构\n\n### 第一章：Superpowers 简介\n**文件**: `chapter-01.md`\n**描述**: 介绍 Superpowers 的核心理念、工作原理和安装方法\n**内容来源**: README.md\n**主要内容**:\n- 什么是 Superpowers\n- 核心工作流程\n- 安装与配置\n\n### 第二章：平台适配\n**文件**: `chapter-02.md`\n**描述**: 不同平台的安装和使用指南\n**内容来源**: docs/README.codex.md, docs/README.opencode.md\n**主要内容**:\n- Claude Code 安装\n- Cursor 安装\n- Codex 配置\n- OpenCode 支持\n\n### 第三章：核心 Skills 详解\n**文件**: `chapter-03.md`\n**描述**: 深入了解 Superpowers 的核心技能系统\n**内容来源**: skills/ 目录\n**主要内容**:\n- brainstorming: 创意设计前的头脑风暴\n- test-driven-development: 测试驱动开发\n- systematic-debugging: 系统化调试\n- writing-plans: 编写实施计划\n- executing-plans: 执行计划\n- verification-before-completion: 完成前验证\n\n### 第四章：工作流深入理解\n**文件**: `chapter-04.md`\n**描述**: 理解完整的开发工作流\n**内容来源**: 综合文档\n**主要内容**:\n- 从需求到部署的完整流程\n- 如何正确使用每个阶段\n- 最佳实践和常见陷阱\n\n### 第五章：设计文档解析\n**文件**: `chapter-05.md`\n**描述**: 学习 Superpowers 的设计思路\n**内容来源**: docs/superpowers/specs/\n**主要内容**:\n- 文档审查系统设计\n- 可视化头脑风暴重构\n- 零依赖头脑风暴服务器\n- Codex 应用兼容性设计\n\n### 第六章：实施计划示例\n**文件**: `chapter-06.md`\n**描述**: 通过真实案例学习如何编写实施计划\n**内容来源**: docs/superpowers/plans/, docs/plans/\n**主要内容**:\n- OpenCode 支持实施\n- 技能改进计划\n- 可视化头脑风暴实施\n- 文档审查系统实施\n\n### 第七章：测试与质量保证\n**文件**: `chapter-07.md`\n**描述**: 如何测试 Superpowers 技能\n**内容来源**: docs/testing.md\n**主要内容**:\n- 测试策略\n- 测试工具\n- 质量保证最佳实践\n\n### 第八章：跨平台兼容性\n**文件**: `chapter-08.md`\n**描述**: 处理不同平台的兼容性问题\n**内容来源**: docs/windows/polyglot-hooks.md\n**主要内容**:\n- Windows 兼容性\n- Polyglot Hooks\n- 跨平台最佳实践\n\n### 第九章：高级主题与扩展\n**文件**: `chapter-09.md`\n**描述**: 深入理解和自定义 Superpowers\n**内容来源**: 综合内容\n**主要内容**:\n- 自定义技能开发\n- 集成到现有工作流\n- 性能优化\n- 团队协作\n\n### 第十章：实战案例\n**文件**: `chapter-10.md`\n**描述**: 真实项目的完整应用示例\n**内容来源**: 综合案例\n**主要内容**:\n- 从零开始的项目\n- 遗留代码重构\n- 团队项目应用\n- 常见问题解决\n\n## 技术栈信息\n\n- 主要语言: JavaScript/TypeScript\n- 支持平台: Claude Code, Cursor, Codex, OpenCode\n- 依赖管理: npm\n- 版本控制: Git\n\n## 书籍类型\n\n实用技术指南 + 设计思想解析\n\n## 目标\n\n通过本书，读者将：\n1. 完全理解 Superpowers 的工作原理\n2. 掌握每个核心技能的使用方法\n3. 学会设计和实施自己的工作流\n4. 能够自定义和扩展 Superpowers\n5. 提升团队整体的 AI 辅助开发效率\n"
+      }
+    },
+    "2": {
+      "name": "分析与规划",
+      "status": "completed",
+      "timestamp": "2026-03-27T17:11:01.584Z",
+      "output": {
+        "analysis": {
+          "title": "Superpowers: AI 编码代理的完整工作流",
+          "description": "深入学习如何使用 Superpowers 系统提升你的 AI 编码代理效率",
+          "chapters": [
+            {
+              "number": 1,
+              "title": "Superpowers 简介",
+              "description": "介绍 Superpowers 的核心理念、工作原理和安装方法",
+              "file": "chapter-01.md"
+            },
+            {
+              "number": 2,
+              "title": "平台适配",
+              "description": "不同平台的安装和使用指南",
+              "file": "chapter-02.md"
+            },
+            {
+              "number": 3,
+              "title": "核心 Skills 详解",
+              "description": "深入了解 Superpowers 的核心技能系统",
+              "file": "chapter-03.md"
+            },
+            {
+              "number": 4,
+              "title": "工作流深入理解",
+              "description": "理解完整的开发工作流",
+              "file": "chapter-04.md"
+            },
+            {
+              "number": 5,
+              "title": "设计文档解析",
+              "description": "学习 Superpowers 的设计思路",
+              "file": "chapter-05.md"
+            },
+            {
+              "number": 6,
+              "title": "实施计划示例",
+              "description": "通过真实案例学习如何编写实施计划",
+              "file": "chapter-06.md"
+            },
+            {
+              "number": 7,
+              "title": "测试与质量保证",
+              "description": "如何测试 Superpowers 技能",
+              "file": "chapter-07.md"
+            },
+            {
+              "number": 8,
+              "title": "跨平台兼容性",
+              "description": "处理不同平台的兼容性问题",
+              "file": "chapter-08.md"
+            },
+            {
+              "number": 9,
+              "title": "高级主题与扩展",
+              "description": "深入理解和自定义 Superpowers",
+              "file": "chapter-09.md"
+            },
+            {
+              "number": 10,
+              "title": "实战案例",
+              "description": "真实项目的完整应用示例",
+              "file": "chapter-10.md"
+            }
+          ],
+          "template": "vitepress-flat"
+        }
+      }
+    },
+    "3": {
+      "name": "框架生成",
+      "status": "completed",
+      "timestamp": "2026-03-27T17:11:01.601Z",
+      "output": {
+        "generated": true
+      }
+    },
+    "4": {
+      "name": "环境配置",
+      "status": "pending"
+    },
+    "5": {
+      "name": "内容创作",
+      "status": "pending"
+    },
+    "6": {
+      "name": "部署发布",
+      "status": "pending"
+    }
+  },
+  "metadata": {
+    "createdAt": "2026-03-27T17:11:01.578Z",
+    "updatedAt": "2026-03-27T17:11:01.601Z"
+  }
+}

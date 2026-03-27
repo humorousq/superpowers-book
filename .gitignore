@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Book crafter temp files
+init-workflow.mjs
+analyze-source.mjs
+generate-framework.mjs
+test.md

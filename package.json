@@ -1,0 +1,20 @@
+{
+  "name": "my-book",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "深入学习如何使用 Superpowers 系统提升你的 AI 编码代理效率",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "generate:pdf": "node scripts/generate-pdf.mjs"
+  },
+  "devDependencies": {
+    "mermaid": "^11.13.0",
+    "vitepress": "^1.5.0",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
