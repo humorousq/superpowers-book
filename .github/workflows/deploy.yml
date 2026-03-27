@@ -11,6 +11,7 @@ permissions:
   pages: write
   id-token: write
 
+# 确保 GITHUB_TOKEN 有足够权限
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -30,11 +31,6 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
-
       - name: Install dependencies
         run: npm ci
 
@@ -52,6 +48,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     name: Deploy
     steps:
       - name: Deploy to GitHub Pages
