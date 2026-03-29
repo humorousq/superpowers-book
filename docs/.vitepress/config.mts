@@ -56,7 +56,8 @@ export default withMermaid(defineConfig({
         collapsed: false,
         items: [
           { text: '第九章：高级主题与扩展', link: '/chapter-09' },
-          { text: '第十章：实战案例', link: '/chapter-10' }
+          { text: '第十章：实战案例', link: '/chapter-10' },
+          { text: '第十一章：Skills 编写指南', link: '/chapter-11' }
         ]
       }
     ],

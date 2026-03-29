@@ -111,6 +111,16 @@
 - 团队项目应用
 - 常见问题解决
 
+### 第十一章：Skills 编写指南
+**文件**: `chapter-11.md`
+**描述**: 深入学习所有 Superpowers Skills 的编写方法和最佳实践
+**内容来源**: superpowers 仓库 skills 目录
+**主要内容**:
+- 核心工作流 Skills 完整文档
+- Skills 编写原则和技巧
+- TDD 方法在 Skills 编写中的应用
+- 实战案例和最佳实践
+
 ## 技术栈信息
 
 - 主要语言: JavaScript/TypeScript
